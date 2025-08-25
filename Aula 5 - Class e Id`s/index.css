@@ -1,0 +1,23 @@
+.p1 {
+    background-color: aqua;
+}
+
+.p2 {
+    background-color: blueviolet;
+}
+
+.p3 {
+    background-color: blue;
+}
+
+.p4 {
+    background-color: brown;
+}
+
+.p5 {
+    background-color: yellow;
+}
+
+#paragrafo {
+    font-family: 'Courier New', Courier, monospace;
+}
