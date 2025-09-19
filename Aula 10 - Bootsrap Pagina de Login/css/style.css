@@ -24,7 +24,7 @@ body {
 }
 
 #form-container form{
-    padding-bottom: 150px;
+    padding-bottom: 0px;
 }
 
 #form-container .form-control{
@@ -35,4 +35,10 @@ body {
 
 #form-container .form-control:focus{
     box-shadow: none;
+}
+
+.row.lign-items-center{
+    align-content: center;
+    height: 100%;
+    padding: 75px 0;
 }
