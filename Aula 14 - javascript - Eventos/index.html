@@ -1,0 +1,31 @@
+<!-- Eventos(onclick/onmouse/onmouseout) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventosn | EstevaoM.</title>
+    <style>
+        .contPerson {
+            background-color: brown;
+            width: 150px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Evento de onclick -->
+    <h2>Eventos - onclick</h2>
+    <button onclick="carConteudo()" >Carreagar conteúdo</button>
+    <p id="conteudo"></p><hr>
+
+    <!-- Evento de onmouseover/onmouseout -->
+    <h2>Evento - onMouseOver/onMouseOut</h2>
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()" class="contPerson" id="mouseAlt">Passa o Mouse</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
